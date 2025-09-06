@@ -2,7 +2,8 @@ import Hello from "./components/hello.client";
 
 
 export default function Home() {
-	console.log('Which component am I?');
+
+		throw new Error('*it is an Error')
 
 	return (
 		<main>
